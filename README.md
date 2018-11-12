@@ -54,7 +54,7 @@ We know what the problem is here. In this lesson, we will be looking at a plan,
 a way to approach and interpret any unfamiliar blob of code. We will use some
 code examples to illustrate as we go.
 
-### The Plan
+## The Plan
 
 This process aims to demystify unfamiliar code. To separate the known from the
 unknown and systematically drill down until the code makes sense. In summary,
@@ -196,7 +196,7 @@ After a variable assignment, we hit something we can't immediately understand,
 return value gets assigned to the variable `guess`. This is our first line of
 opaque code.
 
-### 5. Repeat Steps 2 through 4 on the Opaque Code
+#### 5. Repeat Steps 2 through 4 on the Opaque Code
 
 We can't get much further in understanding our code without
 diving into a second method, `make_guess`. Briefly reapplying the steps on
@@ -260,7 +260,7 @@ We can quickly see that the input is our guess, the output is the result of the
 expression `(1..10).include? guess`, which is a `Boolean`. This code is clear:
 does the range 1 through 10 include the guess, true of false?
 
-### 6. Continue Through All Opaque Code Until The End
+#### 6. Continue Through All Opaque Code Until The End
 
 Stepping back into our loop:
 
