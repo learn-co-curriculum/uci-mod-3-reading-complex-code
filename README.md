@@ -77,8 +77,8 @@ methods are related, at least one of them will likely call the other. One simple
 approach then would be:
 
 A. Find a method in which other methods are called.  
-B. Check to see if this method is called in any _other_ method . 
-C. If true, repeat step B for the new method. If false, start process . 
+B. Check to see if this method is called in any _other_ method.  
+C. If true, repeat step B for the new method. If false, start process.  
 
 Let's take a look at an example to apply this to. Without knowing the purpose
 of the code below, using the above steps, where should we start?
