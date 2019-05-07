@@ -64,7 +64,7 @@ the process looks like this:
 2.  Identify inputs and outputs
 3.  Distinguish and separate which parts of the code are **clear** and which are
     **opaque**
-4.  From your starting point, walk through the code linearly until your reach
+4.  From your starting point, walk through the code linearly until you reach
     opaque code.
 5.  Repeat steps 2-4 on the opaque code
 6.  Continue through all opaque code until the end
@@ -78,7 +78,7 @@ approach then would be:
 
 A. Find a method in which other methods are called.  
 B. Check to see if this method is called in any _other_ method.  
-C. If true, repeat step B for the new method. If false, start process.  
+C. If true, repeat step B for the new method. If false, start the process.
 
 Let's take a look at an example to apply this to. Without knowing the purpose
 of the code below, using the above steps, where should we start?
@@ -236,7 +236,7 @@ end
 
 - **Identify Inputs and Outputs:** While it isn't _exactly_ the same
   as a method input, the `guess` variable comes from outside the loop and is
-  getting reassigned here so we can consider it a sort of input. Output isn't
+  getting reassigned here so we can consider it a sort of input. The output isn't
   clear here.
 - **Distinguish and Separate Out Clear and Opaque Code:** We can see two
   lines of `puts` statements that are simply printing out messages.
@@ -375,7 +375,7 @@ end
 
 ## Conclusion
 
-This method may not be necessary in all situations. Even this example may
+This method may not be necessary for all situations. Even this example may
 have been mostly understood at a glance. However, walking through through the
 code in this way ensures you have a complete picture in your mind - a clear
 enough understanding that you could now modify any of the example methods and
